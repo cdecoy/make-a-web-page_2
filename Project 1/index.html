@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<!--By: Justin Toupin, Last Updated 04/05/2015-->
+<html>
+
+<head>
+  <title>My First Project</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta charset="UTF-8">
+</head>
+
+<body>
+    <h1 class="Title">My First Project </h1>
+    <div class="Lesson">
+		<h2 class="Lesson_Name"> Stage 0: HTML and the Web 1.0 </h2>
+		<div class="Learning">
+			<div class="Learning_Title"> The Web is made up of HTML pages </div>  
+			<div class="Learning_Description"> 
+				<p> HTML pages are hosted on <b>servers</b>, which your <b>web browser</b> accesses via <b>HTTP requests</b>. Websites contain non-HTML content because their HTML references other types of files (e.g., images). </p>
+			</div>
+		</div>
+
+		<div class="Learning">
+			<div class="Learning_Title"> HTML = Tags + Elements </div>  
+			<div class="Learning_Description">
+				<p> An HTML document is made out of <b>tags</b> which specify <b>elements</b>. The position of an element is typically defined by the span of its' corresponding start and end tag. </p>
+			</div>
+		</div>
+
+		<div class="Learning">
+			<div class="Learning_Title"> Inline vs. Block</div>  
+			<div class="Learning_Description">
+				<P> Elements can either be <strong>inline</strong> or <strong>block</strong>.  They way I think about it, inline elements are analogous to text while block elements define a structural object with properties (which can be modified). </P>
+			</div>
+		</div>
+	</div>
+	
+    <div class="Lesson">
+		<h2 class="Lesson_Name"> Stage 1: HTML and the Web 1.0 </h2>
+		<div class="Learning">
+			<div class="Learning_Title">Lots of hammers</div>  
+			<div class="Learning_Description"> 
+				<p> Here are some of the screw-drivers we use when building our webpage: </p>
+    	    	<ul>
+      	  			<li><a href = "stratchpad.io">Strackpad</a> Good for creating simple HTML and CSS because it easy to use and gives the user real-time feedback.</li>   
+    		  		<li><a href = "codepen.io">Codepen</a> More powerful, as it lets you specify HTML, CSS, and JS.  Also allows you to share your code with others (unlike Stratchpad).</li>
+          			<li><a href = "sublimetext.com">Sublime</a> Most flexible and therefore the most powerful but also the least user-friendly.</li>
+          			<li><a href = "github.com">Github</a> Is a service which allows you to host a cloud based repository of your code.  This service includes helpful tools for things like version control.</li>  
+        		</ul> 
+        	</div>
+		</div>
+
+		<div class="Learning">
+			<div class="Learning_Title"> The forest (web) is made of trees (html) </div>  
+			<div class="Learning_Description"> 
+				<p> The elements inside an HTML document form a tree-like structure.  When looking at HTML code, the tree-like structure should be mirrored in the code's indentation structure. Inline elements are always leaf nodes of the tree, while non-leaf nodes are always block elements. </p> 
+			</div>
+		</div>
+
+		<div class="Learning">
+			<div class="Learning_Title"> Lots and lots of boxes</div>  
+			<div class="Learning_Description">
+				<p> Webpages are made up of a set of nests boxes which reflect the HTML document's tree structure (with each box defined by a block element). When constructing a webpage the first step is to break the page down into the simplest boxes possible and then start building the structure starting with the biggest boxes. </p>
+			</div>
+		</div>
+
+    	<div class="Learning">
+			<div class="Learning_Title"> Name your boxes</div>  
+			<div class="Learning_Description">
+				<p> It is important to provide class names for the elements you create (e.g., &lt;div class="Blah"&gt;); and if two elements should be visually consistent, they should generally get the same class name. Along with making your code eaiser to read, names will allow us to easily and consistently update the styling of all elements which are of the same class. </p> 
+			</div>
+		</div>
+	</div>
+
+	<div class="Lesson">
+		<h2 class="Lesson_Name"> Stage 2: Adding CSS Style to an HTML Document </h2>
+		<div class="Learning">
+			<div class="Learning_Title"> CSS brings the style </div>  
+			<div class="Learning_Description"> 
+				<p> HTML dictates the content of the page while CSS dictates how the page looks. The css is defined in a seperate css file, which is referenced in the heading section of the HTML code. </p>
+			</div>
+		</div>
+		
+		<div class="Learning">
+			<div class="Learning_Title"> The debugger is your new besty</div>  
+			<div class="Learning_Description"> 
+				<p> The chrome web-browser debugger is a great way to test out CSS changes before committing them to code.</p>
+			</div>
+		</div>
+	
+		<div class="Learning">
+			<div class="Learning_Title"> Try not to stutter..</div>  
+			<div class="Learning_Description"> 
+				<p> One of the benefits of assigning classes to elements is that it allows you to avoid repetition in your CSS code: the CSS code you write for one class will apply to all instances of the same class.  This technique helps keep simliar items visually consistent while also reducing the potential for errors (each line of code has a probability of being wrong!). This also helps when you are trying to borrow concepts from existing pages when building new pages (<i>"How do I make a circle with a number in it? Oh ya, I wrote that .circle{ } css definition back in '11</i>"). </p>
+			</div>
+		</div>
+
+		<div class="Learning">
+			<div class="Learning_Title"> CSS will make your head hurt</div>
+			<div class="Learning_Description"> 
+				<p> There is a lot to learn about CSS, but here are some of the key concepts: </p>
+				<ul>
+	      	  		<li> The size of a block element is defined by the size of three sub-components: content, padding, margin. </li>
+	      	  		<li> When writing CSS you need to reference which element you want to style changes to apply to.  For example, you can define how you want all elements of a particular class to appear on the screen. </li>
+	      	  		<li> Because HTML elements have a tree like structure, CSS definitions can be overlapping.  When this happens the browser will choose the most <b> specific </b> definition. </li>
+	      	  		<li> Need to find a specific CSS command and you don't posess a photographic memory? Here is your bible: <a href = "https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">CSS Reference Guide </a>. </li>
+	      	  	</ul>
+	      	</div>
+		</div>
+	</div>
+
+</body>
+</html>
